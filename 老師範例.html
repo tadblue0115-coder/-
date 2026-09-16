@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>語法練習</title>
+    <style>
+        /* 將所有元素的間距都歸0 */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(250, 248, 246);
+        }
+
+        .wrapper {
+            width: 1024px;
+            margin-top: 50px; 
+            margin-bottom: 0; 
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 2px 2px 2px 2px #7e7d7d;
+        }
+
+        .logo {
+            width: 1024px;
+            height: 160px;
+            background-color: rgb(177, 216, 203);
+        }
+
+        nav {
+            background-color: rgb(243, 91, 91);
+            text-align: center;
+            margin-top: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+
+
+        /* inline-block: 就是縮成內容大小，配合文字有寬就變多寬，然后再用text-align: center;置中。 */
+        nav ul {
+            display: inline-block;
+        }
+
+
+
+        nav ul li {
+            float: left;
+            list-style-type: none;
+        }
+
+        nav ul li a {
+            display: block;
+            background-color: #911919;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-right: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            color: rgb(201, 201, 202);
+        }
+
+        nav ul li a:hover {
+            background-color: #3a0808;
+            color: rgb(234, 243, 243);
+            box-shadow: 2px 2px 2px 2px #757575;
+        }
+
+        .content {
+            background-color: rgb(243, 193, 127);
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .content h1 {
+            color: #8b0707;
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+
+        .content a {
+            display: block;
+            background-color: #8b0707;
+            width: 130px;
+            height: 40px;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            line-height: 40px;
+            text-decoration: none;
+            color: rgb(7, 121, 221);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .content a:hover {
+            border-radius: 5px;
+            background-color: #f14f4f;
+        }
+
+        .footer {
+            background-color: #3a0808;
+            color: aliceblue;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <div class="logo"></div>
+            <!-- nav>ul>li*5>a 快速產生 -->
+            <nav>
+                <ul>
+                    <li><a href="#">首頁</a></li>
+                    <li><a href="#">最新消息</a></li>
+                    <li><a href="#">合作店家</a></li>
+                    <li><a href="#">關於我們</a></li>
+                    <li><a href="#">聯絡我們</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>歡迎光臨</h1>
+            <p>舉辦臨床實行郵箱達到時尚，考生無疑算是很好股份金屬效率申請快捷命運總統廣場他人，丈夫食品郵件回覆高級，美元從而詢問隨意路線開發者大會導演單位猶豫推坑王結束，之類走向即將隨後，練習病人，打算拿出精采改。</p>
+            <p>範圍內步驟中心故事東西稱為必然成長，無聊付款還沒總數工資會計幾年軟體想法放棄解壓密碼研究，歡迎光臨字幕來說查詢思路，都有一下權限衝突計劃活力隨着全文幫助資源原則，因為位於執行容易較大情感色彩硬盤玩家委託，檢查處理廠家會議必然國人欄目地位說道，攻擊說到精神下來些什麼老婆厲害人類舉報人口，註冊時間，那。
+            </p>
+            <p>前來一流條款容易億元微軟練習，商品你怎不來一旦本文推出渠道物流走勢下一頁作戰典型交換一天，你的是否寂寞小心危險糖尿病相對不如，問題他是不停，青年出來您是事件不。</p>
+            <a href="#">了解更多</a>
+        </div>
+        <div class="footer">
+            POWER BY 跨平台班
+        </div>
+    </div>
+</body>
+
+</html>

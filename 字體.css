@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap');
+
+
+
+
+
+body {
+     
+
+  font-family: "Noto Sans Symbols", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+:root {
+    --bg001: #D9A62E;        /* 芥末黃：衣服主色 */
+    --bg002: #F5D76E;        /* 明亮黃：衣服圖案 */
+    --bg003: #FFF4D6;        /* 米白：衣服邊框 */
+    --bg004: #E8B83D;        /* 暖黃色：背景變化 */
+
+    --text001: #222222;      /* 深黑：文字 */
+    --text002: #5A4A25;      /* 深咖啡：柔和文字 */
+
+    --btn001: #4E8B68;       /* 綠色：蜥蜴圖案 */
+    --btn002: #76A982;       /* 淺綠：按鈕搭配色 */
+    --btn001-hover: #356B4D; /* 深綠：滑鼠移入 */
+    
+    --border001: #FFFFFF;    /* 白色：衣服圖案邊框 */
+}
+   
+    
