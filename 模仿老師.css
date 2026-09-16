@@ -40,13 +40,13 @@
     } */
 
     nav {
-        background: linear-gradient(180deg, rgb(119, 235, 77), rgb(45, 174, 30));
+        background: linear-gradient(180deg, rgb(215, 23, 195), rgb(11, 29, 219));
         text-align: center;
         margin-top: 10px;
         padding: 10px;
         padding-top: 10px;
         border-radius: 0 0 14px 14px;
-        box-shadow: 0 8px 0 rgb(27, 116, 28), 0 14px 20px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 0 rgb(19, 43, 200), 0 14px 20px rgba(0, 0, 0, 0.2);
     }
 
     nav ul {
@@ -65,7 +65,7 @@
         text-decoration: none;
         color: rgb(0, 0, 0);
         padding: 10px;
-        background: linear-gradient(145deg, rgb(62, 224, 103), rgb(8, 151, 57));
+        background: linear-gradient(145deg, rgb(15, 137, 212), rgb(196, 67, 12));
         margin-left: 10px;
         margin-right: 10px;
         border-radius: 5px;
